@@ -1,0 +1,35 @@
+@import "./utils/vars.scss";
+@import "./utils/reset.scss";
+@import "./utils/fonts.scss";
+@import "./modules/header.scss";
+@import "./modules/slider_icons.scss";
+@import "./modules/message.scss";
+@import "./modules/click_menu.scss";
+
+html {
+  line-height: $mainLineHeight;
+	font-size: $mainFontSize;
+	color: $mainFontColor;
+  height: 100vh;
+  //overflow-x: hidden;
+  margin: 0;
+  @media screen and (max-width: 1920px) {
+		font-size: 14px;
+  }
+  @media screen and (max-width: 768px) {
+		font-size: 15px;
+  }
+  @media screen and (max-width: 480px) {
+		font-size: 14px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+a { text-decoration: none; }
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
