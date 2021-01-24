@@ -5,6 +5,7 @@
 @import "./modules/slider_icons.scss";
 @import "./modules/message.scss";
 @import "./modules/click_menu.scss";
+@import "./modules/media.scss";
 
 html {
   line-height: $mainLineHeight;
@@ -14,15 +15,24 @@ html {
   //overflow-x: hidden;
   margin: 0;
   @media screen and (max-width: 1920px) {
-		font-size: 14px;
-  }
-  @media screen and (max-width: 768px) {
-		font-size: 15px;
-  }
-  @media screen and (max-width: 480px) {
-		font-size: 14px;
+		font-size: 16px;
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+  background-size: 100% auto;
+  max-width: 1920px;
+  min-height: auto;
+  height: 100vh; 
+  min-width: 320px;
+  font-family: $mainFont;
+	font-size: $mainFontSize;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:before, *:after { box-sizing: border-box; }
 
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 
