@@ -3,7 +3,7 @@
 <circle cx="31.69" cy="72.4308" r="7" transform="rotate(-15 31.69 72.4308)" stroke="#2E3A59" stroke-width="2"/>
 <rect x="30.9965" y="31.2056" width="30" height="30" transform="rotate(-15 30.9965 31.2056)" stroke="#2E3A59" stroke-width="2"/>
 <g filter="url(#filter1_d)">
-<rect x="43.1052" y="30.0317" width="6" height="8" transform="rotate(-15 43.1052 30.0317)" stroke="#00C368" stroke-width="2"/>
+<rect x="43.1052" y="30.0317" width="6" height="8" transform="rotate(-15 43.1052 30.0317)" stroke="#2E3A59" stroke-width="2"/>
 </g>
 </g>
 <defs>
@@ -21,7 +21,7 @@
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dx="2" dy="2"/>
 <feGaussianBlur stdDeviation="2"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.764706 0 0 0 0 0.407843 0 0 0 0.4 0"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.65098 0 0 0 0 0.670588 0 0 0 0 0.741176 0 0 0 1 0"/>
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
 </filter>
