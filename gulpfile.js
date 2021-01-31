@@ -45,6 +45,7 @@ function scripts() {
         'node_modules/jquery/dist/jquery.min.js',
         'node_modules/svgxuse/svgxuse.js',
         'node_modules/simple-parallax-js/dist/simpleParallax.js',
+        'node_modules/bxslider/dist/jquery.bxslider.min.js',
         'app/js/common.js',
         //'node_modules/jquery/dist/jquery.min.js', // Пример подключения библиотеки
         ///'app/js/app.js', // Пользовательские скрипты, использующие библиотеку, должны быть подключены в конце
@@ -56,7 +57,12 @@ function scripts() {
 }
 
 function styles() {
-    return src('app/' + preprocessor + '/main.' + preprocessor + '') // Выбираем источник: "app/sass/main.sass" или "app/less/main.less"
+    return src( [
+        //'node_modules/bxslider/dist/jquery.bxslider.css',
+        'app/' + preprocessor + '/main.' + preprocessor + '',
+        
+        
+    ]) // Выбираем источник: "app/sass/main.sass" или "app/less/main.less"
         .pipe(eval(preprocessor)()) // Преобразуем значение переменной "preprocessor" в функцию
         .pipe(concat('app.min.css')) // Конкатенируем в файл app.min.js
         .pipe(autoprefixer({ overrideBrowserslist: ['last 10 versions'], grid: true })) // Создадим префиксы с помощью Autoprefixer

@@ -23,9 +23,9 @@ body {
   padding: 0;
   background-size: 100% auto;
   max-width: 1920px;
+  min-width: 320px;
   min-height: auto;
   height: 100vh; 
-  min-width: 320px;
   font-family: $mainFont;
 	font-size: $mainFontSize;
   -webkit-font-smoothing: antialiased;

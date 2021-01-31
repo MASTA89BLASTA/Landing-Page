@@ -1,13 +1,23 @@
 $(document).ready(function() {
-  let myParallaxBubblesLeft = $(".slider_icons-bubbles_parallax-left").get(0);
-  let myParallaxBubblesRight = $(".slider_icons-bubbles_parallax-right").get(0);
-    
-  new simpleParallax(myParallaxBubblesLeft, {
-    orientation: 'right up'
-  });
-  new simpleParallax(myParallaxBubblesRight, {
-    orientation: 'left down'
-  });
+    let myParallaxBubblesLeft = $(".slider_icons-bubbles_parallax-left").get(0);
+    let myParallaxBubblesRight = $(".slider_icons-bubbles_parallax-right").get(0);
+      
+    new simpleParallax(myParallaxBubblesLeft, {
+      orientation: 'up right'
+    });
+    new simpleParallax(myParallaxBubblesRight, {
+      orientation: 'down'
+    });
+
+    $('.bxslider').bxSlider({
+      pager: true,
+      controls: true,
+      auto: true,
+      pause: 10000,        
+      mode: 'fade',
+      minSlides: 1,
+      maxSlides: 1
+    });
 
   /*$('.slider_icons-img_items').on('mouseover', function() {
     $(this).find('svg').children().css({
