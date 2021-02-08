@@ -31,6 +31,7 @@
     "bower": "^1.8.8",
     "bxslider": "^4.2.14",
     "jquery": "^3.5.1",
+    "paroller.js": "^1.4.7",
     "simple-parallax-js": "^5.6.2",
     "svgxuse": "^1.2.6"
   }

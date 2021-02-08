@@ -43,9 +43,11 @@ function scripts() {
     return src([ // Берём файлы из источников
         //'app/js/libs.min.js',
         'node_modules/jquery/dist/jquery.min.js',
-        'node_modules/svgxuse/svgxuse.js',
-        'node_modules/simple-parallax-js/dist/simpleParallax.js',
         'node_modules/bxslider/dist/jquery.bxslider.min.js',
+        'node_modules/paroller.js/dist/jquery.paroller.min.js',
+        'node_modules/svgxuse/svgxuse.js',
+        //'node_modules/simple-parallax-js/dist/simpleParallax.js',
+        
         'app/js/common.js',
         //'node_modules/jquery/dist/jquery.min.js', // Пример подключения библиотеки
         ///'app/js/app.js', // Пользовательские скрипты, использующие библиотеку, должны быть подключены в конце
