@@ -1,0 +1,208 @@
+.as_about-wrapper {
+  width: 100%;
+  height: 1059px;
+}
+.as_about-message {
+  width: 50%;
+  height: 100%;
+  background: #F5F5F5;
+  float: left;
+}
+.as_about-information {
+  width: 50%;
+  height: 100%;
+  background: #F8FBFF;
+  float: left;
+}
+.as_about-message_head, .as_about-information_head {
+  width: 100%;
+  height: 213px;
+  text-align: center;
+}
+.as_about-information_head {
+  height: 243px;
+}
+.as_about-message_line, .as_about-information_line {
+  width: 100%;
+  height: 79px;
+  margin-top: 21px;
+}
+.message_line, .information_line {
+  display: inline-block;
+  width: 184px;
+  height: 100%;
+  border-bottom: 4px solid #00C368;
+}
+.as_about-message_h3, .as_about-information_h3{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #2E3A59;
+  line-height: 47px;
+  margin-top: 17px;
+  width: 80%;
+}
+.as_about-information_h3 {
+  width: 62%;
+  margin-top: 0;
+  line-height: 70px;
+}
+
+.as_about-message_middle {
+  width: 100%;
+  height: 240px;
+  text-align: center;
+}
+.as_about-message_middle-wrapper {
+  width: 80%;
+  height: 100%;
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 6%;
+}
+.as_about-message_middle-img {
+  float: left;
+}
+.as_about-message_middle-text {
+  width: 64%;
+  height: 201px;
+  float: right;
+  line-height: 150%;
+  margin-right: 12px;
+  margin-top: -25px;
+}
+.as_about-message_middle-icons_top {
+  position: relative;
+  right: 53%;
+  top: 26px;
+  fill: #00C368;
+}
+.as_about-message_middle-icons_text {
+  text-align: left;
+}
+.as_about-message_middle-icons_bottom {
+  //float: right;
+  position: relative;
+  top: 211px;
+  left: 45%;
+  fill: #00C368;
+  transform: rotate(180deg);
+}
+.as_about-message_middle-icons_text-signature {
+  font-weight: bold;
+  float: left;
+  margin-top: 12px;
+}
+//bottom
+.as_about-message_bottom {
+  width: 100%;
+  height: 150px;
+  margin-top: 130px;
+  text-align: center;
+}
+.as_about-message_bottom-wrapper_left, .as_about-message_bottom-wrapper_right {
+  width: 49%;
+  height: 100%;
+  display: inline-block;
+}
+.as_about-message_bottom-text_left, .as_about-message_bottom-text_right {
+  width: 242px;
+  height: 129px;
+  display: inline-block;
+  text-align: left;
+  line-height: 150%;
+}
+.as_about-message_bottom-text_left {
+  margin-left: 115px;
+}
+.as_about-message_bottom-text_right {
+  margin-right: 62px;
+}
+.as_about-bottom_img-left, .as_about-bottom_img-right {
+  width: 97px;
+  height: 97px;
+  display: inline-block;
+  vertical-align: top;
+}
+.as_about-bottom_img-left {
+  margin-left: -30px;
+}
+.as_about-bottom_img-right {
+  margin-right: 10px;
+}
+.as_about-message_bottom-icons_text-signature_left, .as_about-message_bottom-icons_text-signature_right {
+  font-weight: bold;
+  line-height: 3;
+}
+
+
+//as_about-information
+.as_about-information_middle {
+  width: 100%;
+  height: 70%;
+  text-align: center;
+}
+.as_about-information_middle-wrapper {
+  width: 73%;
+  height: 100%;
+  margin-left: 101px;
+}
+.as_about-information_middle-icons_items {
+  width: 100%;
+  height: 100%;
+  margin-top: 21px;
+}
+.stability_24-icon_items, .led-icon_items, .lights_off-icon_items, .splitter-icon_items, .power_off-icon_items {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #E7EBF0;
+  margin-top: 17px;
+}
+.as_about-information_middle-icon_items-img,
+ .stability_24-text_p,
+ .stability_24-arrow,
+ .led_text-p,
+ .led_arrow,
+ .lights_off_text-p, 
+ .lights_off-arrow,
+ .splitter_text-p,
+ .splitter-arrow,
+ .power_off-text_p,
+ .power_off-arrow {
+
+  display: inline-block;
+  //float: left;
+}
+.as_about-information_middle-icon_items-img {
+  float: left;
+}
+.stability_24-text_p, .led_text-p, .lights_off_text-p, .splitter_text-p, .power_off-text_p {
+  float: left;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.stability_24-arrow, .led_arrow, .lights_off-arrow, .splitter-arrow, .power_off-arrow {
+  float: right;
+  margin-top: 14px;
+}
+.active_button_class {
+  transform: rotate(180deg);
+}
+.stability_24-text_hidden, .led-text_hidden, .lights_off-text_hidden, .splitter-text_hidden, .power_off-text_hidden  {
+  display: none;
+  float: right;
+  text-align: left;
+  margin-left: 62px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.i_don_t_no_why {
+  //display: none;
+  position: absolute;
+  top:-1000px;
+  left: -1000px;
+}
